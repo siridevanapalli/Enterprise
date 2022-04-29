@@ -9,3 +9,5 @@ pipeline {
         echo 'y' | ${toolbelt}sfdx plugins:install sfpowerkit
       }
     }
+  }
+}
