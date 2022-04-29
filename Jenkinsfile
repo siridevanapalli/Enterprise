@@ -9,7 +9,7 @@ pipeline {
 
     stage('Authorizing an Org') {
       steps {
-        load 'Enterprise/blob/main/Auth.groovy'
+        load 'Auth.groovy'
       }
     }
 
