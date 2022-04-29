@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Authorize an Org') {
       steps {
-        echo 'y' | ${toolbelt}sfdx plugins:install sfpowerkit
+        echo y | ${toolbelt}sfdx plugins:install sfpowerkit
       }
     }
   }
